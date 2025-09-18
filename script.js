@@ -98,13 +98,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   /* ---------- Typewriter effect for Bengali letter ---------- */
-  const letterEl = document.getElementById('letterText')
-  if (letterEl) {
-    // The "Replay" button is no longer needed with the static text.
-    const replay = document.getElementById('replayLetter');
-    if (replay) {
-      replay.style.display = 'none'; // Hide the replay button
-    }
+  // const letterEl = document.getElementById('letterText')
+  // if (letterEl) {
+  //   // The "Replay" button is no longer needed with the static text.
+  //   const replay = document.getElementById('replayLetter');
+  //   if (replay) {
+  //     replay.style.display = 'none'; // Hide the replay button
+  //   }
 
     // print/save
     const downloadBtn = document.getElementById('downloadLetter');
